@@ -1,3 +1,5 @@
+@import url(link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet");
+
 @import "bootstrap";
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -26,3 +28,9 @@ body {
   box-shadow: 5px 5px 15px 5px #000000;
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
 }
+
+.navbar-inverse .navbar-brand {
+  color: #1F85DE;
+  font-family: 'Hepta Slab', serif;
+}
+
