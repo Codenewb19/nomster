@@ -3,7 +3,7 @@ class PhotosController < ApplicationController
 
   def create
     @place = Place.find(params[:place_id])
-    @photo = @place.photos.create(photo_params.merge(user: current_user))
+    @photo = @place.photos.create(photo_params)
     redirect_to @place
   end
 
@@ -13,3 +13,4 @@ class PhotosController < ApplicationController
     params.require(:photo).permit(:caption, :picture)
   end
 end
+#merge(user: current_user)
