@@ -26,6 +26,7 @@ body {
   background: image_url('white_bed_sheet.png');
   box-shadow: 5px 5px 15px 5px #000000;
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-brand {
@@ -76,8 +77,8 @@ blockquote p {
   display: inline;
 }
 
-.carousel-item.active, 
-.carousel-item-next, 
+.carousel-item.active
+.carousel-item-next
 .carousel-item-prev {
   display: block;
 }
